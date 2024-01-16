@@ -31,7 +31,8 @@
 }
 
 .orange {
-    color: var(--primary-color);
+    color: var(--primary-color) !important;
+    font-weight: 700 !important;
 }
 
 .d-flex {
@@ -45,7 +46,35 @@
     font-weight: 800;
     font-size: 1.25rem;
 }
-
+/* navigation section Start */
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.page-title{
+    display: flex;
+    align-items: center;
+}
+.page-title img{
+    width: 6rem;
+}
+.page-links ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2.75rem;
+}
+.page-links ul li {
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: var(--mulish);
+    font-size: 18px;
+    font-weight: 400;
+    list-style: none;
+}
+/* navigation section end */
+/* -------------------------------------------------------------------------------------- */
 /* banner section start  */
 .banner {
     margin-top: 114px;
@@ -598,9 +627,6 @@ select {
     font-family: var(--mulish);
     font-weight: 800;
 }
-
-.video-img {}
-
 /* video section end  */
 /* ---------------------------------------------------------------------------------------------------- */
 /* newsletter section start  */
@@ -727,22 +753,26 @@ select {
     text-align: center;
     margin-top: 50px;
     font-family: var(--inter);
+    margin-bottom: 6.5rem;
 }
 
 .footer-title {
     display: flex;
     flex-direction: row;
+    align-items: center;
     margin: 0 auto;
-    font-family: var(--mulish);
-    font-size: 1rem;
-    line-height: normal;
-    font-weight: 800;
     padding: 50px 0 0 0;
 
 }
+.footer-title h1{
+    font-size: 2rem;
+    font-weight: 800 !important;
+    font-family: var(--mulish);
+    color: #131318;
+}
 
 .footer-title img {
-    width: 40px;
+    width: 7rem;
 }
 
 .footer-description {
@@ -757,6 +787,7 @@ select {
 
 .footer-media {
     font-size: 32px;
+    margin-bottom: 3.1rem;
 }
 
 .footer-media a {
