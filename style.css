@@ -40,6 +40,12 @@
     justify-content: space-between;
 }
 
+.color-primary {
+    color: var(--primary-color);
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
 /* banner section start  */
 .banner {
     margin-top: 114px;
@@ -125,10 +131,7 @@ select {
 }
 
 /* banner section end  */
-
-
-
-
+/* ---------------------------------------------------------------------------- */
 /* tours section start  */
 .tours {
     margin-top: 100px;
@@ -171,10 +174,7 @@ select {
 }
 
 /* tours section end  */
-
-
-
-
+/* -------------------------------------------------------------------------------- */
 /* destination section start  */
 .destination .container {
     margin: 0 auto;
@@ -234,7 +234,6 @@ select {
 
 }
 
-
 .indonesia {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
         url("images/indonesia.png");
@@ -287,12 +286,8 @@ select {
     height: 300px;
 }
 
-
 /* destination section end  */
-
-
-
-
+/* ------------------------------------------------------------------------------------------- */
 /* choose-us section start  */
 .choose-us .container h1 {
     font-size: 2.5rem;
@@ -358,13 +353,14 @@ select {
 }
 
 /* choose-us section end  */
-
+/* --------------------------------------------------------------------------------------------- */
 /* contact us section start*/
-.form{
+.form {
     width: 700px;
-    margin:100px auto;
+    margin: 100px auto;
 }
-.msg-box{
+
+.msg-box {
     height: 100%;
     width: 1170px;
     margin: 100px auto;
@@ -373,7 +369,8 @@ select {
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
 }
-.contact h2{
+
+.contact h2 {
     font-size: 2.5rem;
     font-family: var(--mulish);
     font-weight: 800;
@@ -382,68 +379,169 @@ select {
     text-transform: capitalize;
 }
 
-.msg{
+.msg {
     display: flex;
     flex-direction: column;
 }
-.msg1{
+
+.msg1 {
     font-size: 16px;
     font-family: var(--mulish);
     font-weight: 700;
     padding-bottom: 10px;
     padding-top: 8px;
 }
-.mt{
+
+.mt {
     padding-left: 16px;
     border-radius: 5px;
     height: 30px;
     border: 0;
     background-color: #e7e7fa6c;
 }
-.mt1{
+
+.mt1 {
     padding-left: 16px;
     border-radius: 5px;
     height: 30px;
     border: 0;
     background-color: #e7e7fa6c;
 }
-.mt2{
+
+.mt2 {
     padding: 8px 16px;
     height: 96px;
     border-radius: 5px;
     border: 0;
     background-color: #e7e7fa6c;
 }
-.send{
-    background-color:var(--primary-color);
+
+.send {
+    background-color: var(--primary-color);
     font-size: 20px;
     font-weight: 600;
     color: white;
     border-radius: 5px;
     width: 100%;
-    margin:10px auto 0 auto;
+    margin: 10px auto 0 auto;
     height: 40px;
     border: 1px solid #e7e7fa6c;
     cursor: pointer;
     transition: 300ms;
 }
-.send:hover{
+
+.send:hover {
     background-color: #c94401;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.150);
 }
+
 /* contact us section end*/
-
-
+/* ------------------------------------------------------------------------------------------------- */
 /* discount section start  */
 .discounts {
     margin-top: 100px;
 }
 
+.discount-title {
+    color: #131318;
+    text-align: center;
+    font-family: var(--mulish);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.discount-subtitle {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: var(--mulish);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 643px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.deals {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.deals-1 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3.5rem;
+    background: url(images/satorini.png), lightgray 50% / cover no-repeat;
+    border-radius: 1rem;
+}
+.deals-2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3.5rem;
+    background: url(images/satorini-2.png), lightgray 50% / cover no-repeat;
+    border-radius: 1rem;
+}
+.deals-3 {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3.5rem;
+    background: url(images/satorini.png), lightgray 50% / cover no-repeat;
+    border-radius: 1rem;
+}
+
+.deals-card {
+    border-radius: 1rem;
+    border: 2px solid #FFF;
+    max-width: 579px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 3.125rem;
+}
+
+.deal-description {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.deal-description p {
+    margin-right: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: var(--mulish);
+    margin-bottom: 1.625rem;
+}
+
+.deals-card h1 {
+    color: #131318;
+    font-family: var(--mulish);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.deals-card p {
+    font-family: var(--mulish);
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 1rem;
+}
+.deals-card .color-primary {
+    font-family: var(--mulish);
+}
+.deal-btn{
+    margin-top: 1.5rem;
+}
+
+
 /* discount section end  */
-
-
-
-
+/* ------------------------------------------------------------------------------------------------- */
 /* video section start  */
 .video {
     margin-top: 100px;
@@ -488,10 +586,7 @@ select {
 .video-img {}
 
 /* video section end  */
-
-
-
-
+/* ---------------------------------------------------------------------------------------------------- */
 /* newsletter section start  */
 .newsletter-section {
     margin-bottom: 100px;
@@ -569,7 +664,8 @@ select {
     font-weight: 800;
     margin-top: 0.5rem;
 }
-.nw-promo{
+
+.nw-promo {
     width: 100%;
     max-width: 324px;
     text-align: center;
@@ -579,6 +675,7 @@ select {
     rotate: -20deg;
     border-radius: 1rem;
 }
+
 .nw-promo-title {
     color: #FFF;
     font-family: var(--mulish);
@@ -588,26 +685,13 @@ select {
 
 .nw-promo-subtitle {
     color: #FFF;
-    font-family:var(--mulish);
+    font-family: var(--mulish);
     font-size: 32px;
     font-weight: 800;
 }
 
 /* newsletter section end  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* ------------------------------------------------------------------------------------------------------ */
 /* footer section start  */
 .footer-container {
     color: var(--secondary-color);
