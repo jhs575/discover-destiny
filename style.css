@@ -69,7 +69,7 @@
     color: var(--Dark-02, #424247);
     text-align: center;
     font-family: var(--mulish);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     list-style: none;
 }
@@ -88,11 +88,10 @@
 .banner p {
     margin: 0 auto;
 }
-
 .banner-text {
     color: white;
     font-family: var(--mulish);
-    font-size: 64px;
+    font-size: 4rem;
     font-weight: 800;
     max-width: 596px;
     width: 100%;
@@ -112,6 +111,7 @@
     margin-bottom: 48px !important;
     width: 100%;
     max-width: 676px;
+    margin: 0 auto;
 }
 
 .input-place {
@@ -747,7 +747,6 @@ select {
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
 }
-
 .footer-container p {
     color: var(--secondary-color);
     text-align: center;
@@ -755,14 +754,12 @@ select {
     font-family: var(--inter);
     margin-bottom: 6.5rem;
 }
-
 .footer-title {
     display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
     padding: 50px 0 0 0;
-
 }
 .footer-title h1{
     font-size: 2rem;
@@ -770,11 +767,9 @@ select {
     font-family: var(--mulish);
     color: #131318;
 }
-
 .footer-title img {
     width: 7rem;
 }
-
 .footer-description {
     line-height: 24px;
     font-size: 1rem;
@@ -784,17 +779,14 @@ select {
     width: 100%;
     max-width: 769px;
 }
-
 .footer-media {
     font-size: 32px;
     margin-bottom: 3.1rem;
 }
-
 .footer-media a {
     text-decoration: none;
     color: black;
 }
-
 .footer-icon {
     padding: 8px;
 }
@@ -803,3 +795,9 @@ select {
     cursor: pointer;
 }
 /* footer section end  */
+/* ____________________________________________________________________________________________________________ */
+/* mobile device responsive start*/
+@media screen and (max-width:550px) {
+        
+}
+/* mobile device responsive end*/
