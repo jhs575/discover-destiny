@@ -51,12 +51,10 @@
     right: -200px;
     top: 0px;
     padding: 3rem;
-    /* display: none; */
     transition: all ease 400ms;
   }
 
   input[type=checkbox]:checked ~ .mobile-menu{
-    /* display: block; */
     right:0px;
   }
 
@@ -71,6 +69,7 @@
     background-color: gray;
     padding: 1rem;
     border-radius: 1rem;
+    font-size: 10px;
   }
 
 /* Hamburger Menu */
@@ -80,7 +79,7 @@
         font-size: 5.5px;
     }
     .container{
-    max-width: 500px;
+    max-width: 450px;
     width: 90%;
     }
     .nav-bar{
@@ -98,7 +97,16 @@
     .msg-box{
         width: 100%;
     }
-
+    .page-title img{
+        width: 80px;
+    }
+    .page-title h2, .orange{
+        font-size: 22px;
+    }
+    .page-title{
+        display: flex;
+        justify-content: flex-start;
+    }
     .banner {
         margin-top:17px;
         border-radius: 10px;
@@ -119,7 +127,7 @@
     }
     .input-place {
         flex-direction: column;
-        max-width: 350px;
+        max-width: 310px;
         width: 90%;
         align-items: center;
         padding: 16px;
@@ -174,7 +182,7 @@
     }
     .tour-img, img{
         width: 90%;
-        max-width: 400px;
+        max-width: 350px;
         margin: 0 auto;
     }
     .destination .container h1 {
@@ -183,7 +191,7 @@
     }
     .destination .container p {
         font-size: 14px;
-        max-width: 450px;
+        max-width: 350px;
     }
     .row {
         flex-direction: column;
@@ -203,7 +211,7 @@
     }
     .choose-us .container p {
         font-size: 14px;
-        max-width: 510px;
+        max-width: 350px;
         width: 90%;
         margin: 0 auto;
         margin-top: 16px;
@@ -231,7 +239,7 @@
     .discount-subtitle {
         font-size: 14px;
         line-height: 26px;
-        max-width: 643px;
+        max-width: 350px;
         width: 90%;
     }
     .deals {
@@ -256,7 +264,7 @@
     .deals-card {
         border-radius: 16px;
         border: 2px solid #FFF;
-        max-width: 450px;
+        max-width: 350px;
         padding: 25px;
     }
     .deal-description {
@@ -369,7 +377,7 @@
         margin-bottom: 24px;
     }
     .newsletter-img {
-        max-width: 375px;
+        max-width: 350px;
         width: 100%;
         position: relative;
         display: flex;
